@@ -16,7 +16,7 @@ spec:
         app: pitstop-webapp
     spec:
       containers:
-      - name: pitstop-webapp
-        image: chaimaaitali/pitstop-webapp:latest
-        ports:
-        - containerPort: 8080
+        - name: pitstop-webapp
+          image: chaimaaitali/pitstop-webapp:48c2ddeb
+          ports:
+            - containerPort: 8080
